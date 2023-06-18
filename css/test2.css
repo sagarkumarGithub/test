@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cd853f;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+  height: 6rem;
+  margin-left: 2rem;
+}
+
+.tabs ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.tabs ul li {
+  margin-right: 5rem;
+}
+
+.tabs ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.tabs ul li a:hover {
+  color: #cccccc;
+  border-top: 1px solid;
+  border-color: blue;
+}
+
+.tabs select:hover {
+  color: #cccccc;
+  border-top: 1px solid;
+  border-color: blue;
+}
+
+.container {
+  width: 1400px;
+  margin: 6rem auto;
+  display: flex;
+}
+
+.description {
+  width: 50%;
+  margin: 4rem;
+}
+
+.image {
+  width: 50%;
+  margin: 4rem;
+}
+
+.description p {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+}
+
+.description h1 {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  display: flex;
+  gap: 2rem;
+}
+
+.view {
+  background-color: grey;
+  height: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button {
+  font-size: 2rem;
+  padding: 0.7rem;
+  border-radius: 7px;
+  border: none;
+}
+
+.btn button:hover {
+  color: grey;
+}
+
+footer {
+  background-color: skyblue;
+  height: 22rem;
+  text-align: center;
+}
+
+footer h2 {
+  color: white;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 3rem;
+  font-size: 5rem;
+}
+
+.dropdown {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+}
+
+.icons i:hover {
+  color: #cccccc;
+}
